@@ -1,4 +1,4 @@
-import excel "H:\mydata\Performance measure data.xls", sheet("1") cellrange(A1:S195) firstrow case(lower)
+import excel "Performance measure data.xls", sheet("1") cellrange(A1:S195) firstrow case(lower)
 
 tabulate year , summarize (lnbonus )
 
